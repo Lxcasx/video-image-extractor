@@ -1,0 +1,6 @@
+.tmp/
+data/
+result/
+__pycache__
+venv/
+videos.json
