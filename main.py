@@ -19,7 +19,7 @@ def extract_images(video, video_capture):
         if not ret:
             break
 
-        # Write the image to the '{OUT_PATH}' directory
+        # Write the image to the 'tmp' directory
         cv2.imwrite(f'{TMP_PATH}/{name}/frame_{rand_id}_{frame_count}.jpg', frame)
 
         frame_count += 1
